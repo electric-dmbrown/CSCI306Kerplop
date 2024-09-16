@@ -1,6 +1,7 @@
 package levelPieces;
 
 import java.util.ArrayList;
+import gameEngine.Moveable;
 
 public class LevelSetup {
 	
