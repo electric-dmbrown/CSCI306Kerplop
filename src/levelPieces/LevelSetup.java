@@ -1,41 +1,70 @@
 package levelPieces;
 
 import java.util.ArrayList;
+import gameEngine.Drawable;
 import gameEngine.Moveable;
 
 public class LevelSetup {
-	private int currentLevel;
+	private final int BOARD_SIZE = 21;
+	private int currentL;
+	private Drawable[] board1;
+	private Drawable[] board2;
+	private ArrayList<Moveable> move1;
+	private ArrayList<Moveable> move2;
+	private ArrayList<GamePiece> interact1;
+	private ArrayList<GamePiece> interact2;
+	private int start1 = 0;
+	private int start2 = 0;
 	
 	public LevelSetup() {
-		currentLevel = 1;
+		currentL = 1;
+		board1 = new Drawable[BOARD_SIZE];
+		board2 = new Drawable[BOARD_SIZE];
+		move1 = new ArrayList<Moveable>();
+		move2 = new ArrayList<Moveable>();
+		interact1 = new ArrayList<GamePiece>();
+		interact2 = new ArrayList<GamePiece>();
 	}
 	
 	public void createLevel(int levelNum) {
-		currentLevel = levelNum;
+		currentL = levelNum;
+		if(currentL ==levelNum) {
+			
+		} else {
+			
+		}
 	}
 	
-	public GamePiece[] getBoard() {
-		switch(currentLevel) {
-		case 1:
-			return;
-			break;
-		case 2:
-			return;
-			break;
+	public Drawable[] getBoard() {
+		if(currentL == 1) {
+			return board1;
+		} else {
+			return board2;
 		}
-		
 	}
 	
 	public ArrayList<Moveable> getMovingPieces(){
-		
+		if(currentL == 1) {
+			return move1;
+		} else {
+			return move2;
+		}
 	}
 	
 	public ArrayList<GamePiece> getInteractingPieces(){
-		
+		if(currentL == 1) {
+			return interact1;
+		} else {
+			return interact2;
+		}
 	}
 	
 	public int getPlayerStartLoc(){
-		return 2;
+		if(currentL == 1) {
+			return start1;
+		} else {
+			return start2;
+		}
 	}
 	
 	public static void main(String[] args) {
