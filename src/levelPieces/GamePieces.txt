@@ -1,0 +1,14 @@
+Coin: does not move, gives the player a point when landed on.
+
+FairyPiece: randomly moves to a location on the board, instant win
+
+FlowerPiece: just sits there and does not do anything on interact
+
+Slime: The slime moves to the right always and if it goes off the board it wraps around. 
+Hits on both sides of the piece
+
+Trap: Does not move. Insta kills if the player lands to the left of it.
+
+Tree: Does nothing only implements draw
+
+WallPiece: Does not move. Hits the player if they land on it.

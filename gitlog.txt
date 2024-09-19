@@ -1,0 +1,100 @@
+**Important**
+My patner was not able to git his git to connect to the git hub so he is only shown in one commit where i commit all of the code that he wrote.
+However I can assure you that he did constribute to this project and will fight you if we get points taken off because you claim he didn't
+contribute to this project.
+
+commit 94f1359c093c23f6fcfe3c0a2505774a744b4769
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 22:05:22 2024 -0600
+
+    commented code and finished the LevelSetup so you can actually play levels. Also fixed Tree
+
+commit b79d61e7a2c74ea8bd12969fcf7c5a41e674091f
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 21:17:09 2024 -0600
+
+    Made the first level
+
+commit c9cbf5a0d48ba85cc7cd0c73b6d4a85a6090d0cd
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 20:50:08 2024 -0600
+
+    Made Fairy Pieces Moves actually translate to the game board
+
+commit 81085bf0abadde5caa629d01d570f326b5b4dafb
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 20:46:22 2024 -0600
+
+    Add the pieces that Garrison made and a small edit to LevelSetup
+
+commit c4751bd8a01621aab28d906c39f2ef6b483eca5f
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 20:24:45 2024 -0600
+
+    Made Slime move in the game board
+
+commit 13d2f1f6c71413fe58997bbe55456e160707def5
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 19:50:51 2024 -0600
+
+    added to LevelSetup
+
+commit 424a87619943713b9ab558cf2fb431ab16ba98a1
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 14:23:02 2024 -0600
+
+    Mostly Finished LevelSetup and Small change to slime
+
+commit 2dd7e83946b1bfec3f74415328f7d3ae014c1ed2
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 13:52:47 2024 -0600
+
+    Added Slime game piece that moves
+
+commit f74c09f2f739d60fbf8e6a7fdb5c1952b57f1efe
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 12:22:48 2024 -0600
+
+    Made some small changes to LevelSetup class
+
+commit d53622024c3a68390c28f548df444eadf1498ad9
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 12:18:41 2024 -0600
+
+    Added Trap Piece
+
+commit 5126b9ba5cd61c7d66f2c3f9a78c87280a3b34a7
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 08:54:34 2024 -0600
+
+    added a flag to Coin
+
+commit fb61d271d6a597de138c028e39fa47e066ebe058
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Wed Sep 18 08:25:43 2024 -0600
+
+    Added Coin Piece. Move not implemented.
+
+commit 765b36e782ca46f815d0dc2865b0dbbfce846645
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Mon Sep 16 16:24:24 2024 -0600
+
+    Fixed getMovingPieces
+
+commit 821dcce1851bf5de28efb601c0a63c2b4a44ba99
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Mon Sep 16 16:13:56 2024 -0600
+
+    added methods to the LevelSetup class. getMovingPieces is broken
+
+commit 3b7dad4b8f7deeb832744b5249386de1dc301b7f
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Mon Sep 16 15:54:39 2024 -0600
+
+    Added LevelSetup class
+
+commit 8c752bb0230324f9245de819822668ba8743d867
+Author: Deklan Brown <dmbrown@mines.edu>
+Date:   Mon Sep 16 14:57:24 2024 -0600
+
+    Stater code provided to us
