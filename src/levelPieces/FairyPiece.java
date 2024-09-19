@@ -54,10 +54,11 @@ public class FairyPiece extends GamePiece implements Moveable{
     @Override
     public void move(Drawable[] gameBoard, int playerLocation) {
     	int newLoc = rnd.nextInt(gameBoard.length-1);
+    	newLoc = rnd.nextInt(gameBoard.length-1);
         if(gameBoard[newLoc] == null) {
         	gameBoard[newLoc] = gameBoard[super.getLocation()];
         	gameBoard[super.getLocation()] = null;
-        	super.setLocation(rnd.nextInt(gameBoard.length - 1));
+        	super.setLocation(newLoc);
         }
     }
 }

@@ -16,7 +16,7 @@ public class Tree implements Drawable{
      */
     @Override
     public void draw() {
-        System.out.println("T");
+        System.out.print("Y");
         
     }
 }
