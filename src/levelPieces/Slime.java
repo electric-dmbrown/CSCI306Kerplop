@@ -23,11 +23,12 @@ public class Slime extends GamePiece implements Moveable{
 	@Override
 	public void move(Drawable[] gameBoard, int playerLocation) {
 		int newLocation = (super.getLocation() + 1) % gameBoard.length;
-		if(gameBoard[newLocation] == null) {
-			gameBoard[newLocation] = gameBoard[super.getLocation()];
-			gameBoard[super.getLocation()] = null;
-			super.setLocation(newLocation);
-		}
+		//if(gameBoard[newLocation] == null) {
+			//gameBoard[newLocation] = gameBoard[super.getLocation()];
+			//gameBoard[super.getLocation()] = null;
+			//super.setLocation(newLocation);
+		//}
+		super.setLocation(newLocation);
 	}
 
 }

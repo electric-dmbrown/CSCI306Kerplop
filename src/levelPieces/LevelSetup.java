@@ -29,7 +29,10 @@ public class LevelSetup {
 	public void createLevel(int levelNum) {
 		currentL = levelNum;
 		if(currentL ==levelNum) {
-			
+			Slime slime1 = new Slime('s',"SLIME",2);
+			board1[2] = slime1;
+			interact1.add(slime1);
+			move1.add(slime1);
 		} else {
 			
 		}
