@@ -30,9 +30,13 @@ public class LevelSetup {
 		currentL = levelNum;
 		if(currentL ==levelNum) {
 			Slime slime1 = new Slime('s',"SLIME",2);
+			FairyPiece fairy1 = new FairyPiece('F',"Fairy",4);
 			board1[2] = slime1;
+			board1[4] = fairy1;
 			interact1.add(slime1);
+			interact1.add(fairy1);
 			move1.add(slime1);
+			move1.add(fairy1);
 		} else {
 			
 		}
