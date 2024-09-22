@@ -4,10 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import levelPieces.*;
 
-class TestMovingPieces {
+class TestInteractions {
 
 	@Test
-	void testSlimeMovements() {
+	void testTrap() {
 		fail("Not yet implemented");
 	}
 
