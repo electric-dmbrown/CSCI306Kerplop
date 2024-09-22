@@ -54,5 +54,10 @@ class TestMovingPieces {
 		slime1.move(gameboard, 6);
 		assert(slime1 == gameboard[0]);
 	}
+	
+	@Test
+	void testFairy() {
+		fail("Not yet implemented");	
+	}
 
 }
