@@ -55,6 +55,9 @@ class TestMovingPieces {
 		assert(slime1 == gameboard[0]);
 	}
 	
+	/**
+	 * testFairy: test that the fairy is able to reach all of the spaces on the board.
+	 */
 	@Test
 	void testFairy() {
 		Drawable[] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
